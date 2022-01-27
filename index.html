@@ -23,33 +23,39 @@
   </head>
 
   <body>
-    <header class="title">
-      <h1>Weather Dashboard</h1>
+    <header class="title p-3">
+      <h1><b>Weather Dashboard</b></h1>
     </header>
 
-    <div class="container">
+    <div class="container mt-4">
       <div class="row">
-          <div class="col-md-4">
-              <h2>Search for a City:</h2>
-              <input type="text" id="text" />
-              <button id="search-btn" type="button" class="btn">Search</button>
+          <div class="col-md-3">
+              <h3>Search for a City:</h3>
+              <input type="text" id="text" placeholder="Enter a city..." />
+              <button id="search-btn" type="button" class="btn btn-info mt-2">Search</button>
           </div>
 
-          <div class="col-md-8">
-              <div class="current-report">
-                  <h2>City(MM/DD/YYYY)</h2>
-                  <p>Temp: </p>
-                  <p>Wind: </p>
-                  <p>Humidity: </p>
-                  <p>UV Index: </p>
+          <div class="col-md-9 pl-5">
+              <div id="current-report">
+                  <h3>
+                    <span id="city">City</span>
+                    <span id="date">(MM/DD/YYYY)</span>
+                    <i class="fas fa-cloud-sun-rain"></i>
+                  </h3>
+                  <p id="temp">Temp: </p>
+                  <p id="wind">Wind: </p>
+                  <p id="humid">Humidity: </p>
+                  <p id="uv">UV Index: </p>
               </div>
-              <div class="row-fluid">
-                <h4>5-Day Forecast: </h4>
-                <div class="span2 offset1"></div>
-                <div class="span2"></div>
-                <div class="span2"></div>
-                <div class="span2"></div>
-                <div class="span2"></div>
+              <div id="five-days-report">
+                <div class="row-fluid">
+                  <h4>5-Day Forecast: </h4>
+                  <div class="span2 offset1"></div>
+                  <div class="span2"></div>
+                  <div class="span2"></div>
+                  <div class="span2"></div>
+                  <div class="span2"></div>
+                </div>
               </div>
           </div>
       </div>
