@@ -9,5 +9,6 @@ Data from their page into my site. The data of current weather and
 
 Screenshot: 
 
+https://photos.app.goo.gl/NKpUzhZjHxD95u7J8
 
 Deployed link: https://akashwanem.github.io/weather-dashboard-with-server-side-api/
