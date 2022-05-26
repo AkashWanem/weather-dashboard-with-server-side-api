@@ -37,19 +37,15 @@
 
           <div class="col-md-9 pl-5">
               <div id="current-report">
-                  <h3>
-                    <span id="city">City</span>
-                    <span id="date">(MM/DD/YYYY)</span>
-                    <i class="fas fa-cloud-sun-rain"></i>
-                  </h3>
-                  <p id="temp">Temp: </p>
-                  <p id="wind">Wind: </p>
-                  <p id="humid">Humidity: </p>
-                  <p id="uv">UV Index: </p>
+                  <h3 class="city-name bolder" id="city"></h3>
+                  <p>Temp: <span class="current" id="temp"></span></p>
+                  <p>Wind: <span class="current" id="wind"></span></p>
+                  <p>Humidity: <span class="current" id="humid"></span></p>
+                  <p>UV Index: <span class="current" id="uv"></span></p>
               </div>
               <div id="five-days-report">
+                <h4>5-Day Forecast: </h4>
                 <div class="row-fluid">
-                  <h4>5-Day Forecast: </h4>
                   <div class="span2 offset1"></div>
                   <div class="span2"></div>
                   <div class="span2"></div>
@@ -62,6 +58,7 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
     <script src="./assets/javascript/script.js""></script>
   </body>
 </html>
